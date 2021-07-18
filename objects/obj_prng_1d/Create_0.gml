@@ -11,7 +11,7 @@ for (var i = 0; i < array_length(value_array); i += 1) {
 
 
 
-alarm[0] = 2;
+alarm[0] = 1;
 
 
 

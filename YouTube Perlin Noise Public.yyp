@@ -2,16 +2,17 @@
   "resources": [
     {"id":{"name":"obj_prng_1d","path":"objects/obj_prng_1d/obj_prng_1d.yy",},"order":2,},
     {"id":{"name":"obj_prng_2d","path":"objects/obj_prng_2d/obj_prng_2d.yy",},"order":1,},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},"order":0,},
     {"id":{"name":"rm_prng_2d","path":"rooms/rm_prng_2d/rm_prng_2d.yy",},"order":2,},
     {"id":{"name":"utility_scripts","path":"scripts/utility_scripts/utility_scripts.yy",},"order":0,},
-    {"id":{"name":"rm_perlin_noise_1d","path":"rooms/rm_perlin_noise_1d/rm_perlin_noise_1d.yy",},"order":1,},
+    {"id":{"name":"rm_perlin_noise_1d","path":"rooms/rm_perlin_noise_1d/rm_perlin_noise_1d.yy",},"order":3,},
     {"id":{"name":"obj_perlin_noise_1d","path":"objects/obj_perlin_noise_1d/obj_perlin_noise_1d.yy",},"order":1,},
-    {"id":{"name":"rm_prng_1d","path":"rooms/rm_prng_1d/rm_prng_1d.yy",},"order":3,},
+    {"id":{"name":"rm_prng_1d","path":"rooms/rm_prng_1d/rm_prng_1d.yy",},"order":1,},
     {"id":{"name":"game_manager","path":"objects/game_manager/game_manager.yy",},"order":1,},
     {"id":{"name":"perlin_noise_script_functions","path":"scripts/perlin_noise_script_functions/perlin_noise_script_functions.yy",},"order":0,},
     {"id":{"name":"obj_perlin_noise_2d","path":"objects/obj_perlin_noise_2d/obj_perlin_noise_2d.yy",},"order":2,},
     {"id":{"name":"custom_prng_script_functions","path":"scripts/custom_prng_script_functions/custom_prng_script_functions.yy",},"order":0,},
-    {"id":{"name":"rm_perlin_noise_2d","path":"rooms/rm_perlin_noise_2d/rm_perlin_noise_2d.yy",},"order":0,},
+    {"id":{"name":"rm_perlin_noise_2d","path":"rooms/rm_perlin_noise_2d/rm_perlin_noise_2d.yy",},"order":4,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -31,9 +32,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_prng_1d","path":"rooms/rm_prng_1d/rm_prng_1d.yy",},},
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_perlin_noise_1d","path":"rooms/rm_perlin_noise_1d/rm_perlin_noise_1d.yy",},},
     {"roomId":{"name":"rm_perlin_noise_2d","path":"rooms/rm_perlin_noise_2d/rm_perlin_noise_2d.yy",},},
+    {"roomId":{"name":"rm_prng_1d","path":"rooms/rm_prng_1d/rm_prng_1d.yy",},},
     {"roomId":{"name":"rm_prng_2d","path":"rooms/rm_prng_2d/rm_prng_2d.yy",},},
   ],
   "Folders": [

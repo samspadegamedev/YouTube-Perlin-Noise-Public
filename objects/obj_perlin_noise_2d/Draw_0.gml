@@ -16,9 +16,9 @@ if (not_drawn) {
 			for (var j = 0; j < room_height; j += _incr) {
 				
 				var _val = perlin_noise(X, Y, Z);
-
+				show_debug_message(_val);
 				
-				var _col_val = map_value(_val, -1, 1, 0, 255);
+				var _col_val = map_value(_val, -0.808, 0.808, 0, 255);
 				draw_set_color(make_color_rgb(_col_val, _col_val, _col_val));
 				draw_rectangle(i, j, i + _incr, j + _incr, false);	
 				

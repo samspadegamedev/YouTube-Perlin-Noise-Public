@@ -4,4 +4,4 @@
 array_push(value_array, custom_random(room_height));
 array_delete(value_array, 0, 1);
 
-alarm[0] = 2;
+alarm[0] = 1;
