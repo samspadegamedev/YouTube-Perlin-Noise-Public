@@ -21,3 +21,9 @@ function approach_value(_start, _end, _shift) {
 function modulo(_a, _b) {
 	return (((_a % _b) + _b) % _b);
 }
+
+
+function point(_x, _y) constructor {
+	x = _x;
+	y = _y;
+}

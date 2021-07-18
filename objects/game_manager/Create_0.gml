@@ -2,5 +2,5 @@
 
 
 randomize();
-my_randomize();
+custom_randomize();
 
