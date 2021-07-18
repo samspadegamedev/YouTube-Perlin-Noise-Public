@@ -1,6 +1,7 @@
 {
   "resources": [
-    {"id":{"name":"obj_prng_2d","path":"objects/obj_prng_2d/obj_prng_2d.yy",},"order":4,},
+    {"id":{"name":"obj_prng_1d","path":"objects/obj_prng_1d/obj_prng_1d.yy",},"order":2,},
+    {"id":{"name":"obj_prng_2d","path":"objects/obj_prng_2d/obj_prng_2d.yy",},"order":1,},
     {"id":{"name":"rm_prng_2d","path":"rooms/rm_prng_2d/rm_prng_2d.yy",},"order":2,},
     {"id":{"name":"utility_scripts","path":"scripts/utility_scripts/utility_scripts.yy",},"order":0,},
     {"id":{"name":"rm_perlin_noise_1d","path":"rooms/rm_perlin_noise_1d/rm_perlin_noise_1d.yy",},"order":1,},
@@ -30,10 +31,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_prng_1d","path":"rooms/rm_prng_1d/rm_prng_1d.yy",},},
     {"roomId":{"name":"rm_perlin_noise_1d","path":"rooms/rm_perlin_noise_1d/rm_perlin_noise_1d.yy",},},
     {"roomId":{"name":"rm_perlin_noise_2d","path":"rooms/rm_perlin_noise_2d/rm_perlin_noise_2d.yy",},},
     {"roomId":{"name":"rm_prng_2d","path":"rooms/rm_prng_2d/rm_prng_2d.yy",},},
-    {"roomId":{"name":"rm_prng_1d","path":"rooms/rm_prng_1d/rm_prng_1d.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Rooms.yy","order":1,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},

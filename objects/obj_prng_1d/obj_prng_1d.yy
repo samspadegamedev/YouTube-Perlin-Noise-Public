@@ -25,11 +25,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Perlin Noise",
-    "path": "folders/Perlin Noise.yy",
+    "name": "Custom PRNG",
+    "path": "folders/Custom PRNG.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_perlin_noise_1d",
+  "name": "obj_prng_1d",
   "tags": [],
   "resourceType": "GMObject",
 }

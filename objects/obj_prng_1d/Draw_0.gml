@@ -1,4 +1,4 @@
-/// @description Perlin Noise 1D
+/// @description PRNG 1D
 
 
 draw_set_color(c_black);
