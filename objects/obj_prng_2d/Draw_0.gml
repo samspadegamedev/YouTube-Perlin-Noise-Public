@@ -11,7 +11,7 @@ if (not_drawn) {
 		for (var i = 0; i < room_width; i += _inc) {
 			for (var j = 0; j < room_height; j += _inc) {
 				
-				var _col_val = custom_random(255);
+				var _col_val = random(255);
 				draw_set_color(make_color_rgb(_col_val, _col_val, _col_val));
 				draw_rectangle(i, j, i + _inc, j + _inc, false);	
 				

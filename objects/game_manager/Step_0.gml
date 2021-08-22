@@ -18,7 +18,7 @@ if (keyboard_check_pressed(ord("4"))) {
 
 
 if (keyboard_check_pressed(ord("R"))) {
-	room_restart();
+	game_restart();
 }
 
 
