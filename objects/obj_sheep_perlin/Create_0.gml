@@ -1,32 +1,19 @@
-/// @description Perlin Sheep
+/// @description Perlin Sheep - Inherits
 
 
-move_and_collide = function() {
-	
-	//horizontal movement and collision
-	if (place_meeting(x + hsp, y, solid_parent)) {
-	    while (!place_meeting(x + sign(hsp), y, solid_parent)) {
-	        x += sign(hsp);
-	    }
-	    hsp = 0;
-	}
-	x += hsp;
+// Inherit the parent event
+event_inherited();
 
-	//verticle collision and movement
-	if (place_meeting(x, y + vsp, solid_parent)) {
-	    while (!place_meeting(x, y + sign(vsp), solid_parent)) {
-	        y += sign(vsp);
-	    }
-	    vsp = 0;
-	}
-	y += vsp;
 
+my_move_code = function() {
+	tx += increment;
+	ty += increment;
+
+	hsp = map_value(perlin_noise(tx), -1, 1, -spd, spd);
+	vsp = map_value(perlin_noise(ty), -1, 1, -spd, spd);
 }
 
-hsp = 0;
-vsp = 0;
-spd = 1;
-dir = random(360);
 
-time = random(10000);
-increment = 0.001;
+tx = random(10000);
+ty = random(10000);
+increment = 0.01;

@@ -1,6 +1,6 @@
 /// @description Game Manager
 
 
-//randomize();
-//custom_randomize();
+randomize();
+custom_randomize();
 

@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_sheep",
-    "path": "sprites/spr_sheep/spr_sheep.yy",
+    "name": "spr_square",
+    "path": "sprites/spr_square/spr_square.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "sheep_parent",
-    "path": "objects/sheep_parent/sheep_parent.yy",
+    "name": "debug_button_parent",
+    "path": "objects/debug_button_parent/debug_button_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,14 +26,18 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
+        "GMObject",
+      ],"resourceVersion":"1.0","name":"object_id","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Sheep Demo/Objects.yy",
+    "name": "Debug Slider",
+    "path": "folders/Debug Slider.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sheep_random",
+  "name": "obj_debug_obj_button",
   "tags": [],
   "resourceType": "GMObject",
 }

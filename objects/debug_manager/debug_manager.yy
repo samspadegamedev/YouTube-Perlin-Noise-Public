@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_sheep",
-    "path": "sprites/spr_sheep/spr_sheep.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": {
-    "name": "sheep_parent",
-    "path": "objects/sheep_parent/sheep_parent.yy",
-  },
+  "persistent": true,
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":84,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Sheep Demo/Objects.yy",
+    "name": "Debug Slider",
+    "path": "folders/Debug Slider.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sheep_random",
+  "name": "debug_manager",
   "tags": [],
   "resourceType": "GMObject",
 }

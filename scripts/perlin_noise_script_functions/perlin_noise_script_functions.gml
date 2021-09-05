@@ -99,3 +99,5 @@ function perlin_noise(_x, _y = 100.213, _z = 450.4215) {
 										_grad(_p[BB+1], _x-1, _y-1, _z-1 )))); 
 
 }
+	
+	
